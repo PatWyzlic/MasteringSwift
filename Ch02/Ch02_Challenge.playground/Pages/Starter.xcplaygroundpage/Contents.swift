@@ -15,17 +15,26 @@
  
  */
 // 1
+var characterName = "EmperorZue", weaponClassification = "Sword"
 
 // 2
+characterName += "Wee"
 
 // 3
+var currentMana = 99.23
 
 // 4
+var manaPercentage = String(currentMana / 100)
 
 // 5
+var debugStats = "Name: \(characterName)\nMana: \(currentMana)\nMana Percent: \(manaPercentage)"
 
 // 6
+var questAccepted = true
+var canQuest = true
 
 // 7
+var questStatus = questAccepted && canQuest
 
 // 8
+debugStats.append("\nWants Quest? \(questStatus)")
