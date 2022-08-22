@@ -6,10 +6,27 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXFileReference section */
+		4E9ABF9328B4035600ACFA7D /* Ch07 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ch07; sourceTree = "<group>"; };
+		4E9ABF9428B4035600ACFA7D /* AdventureSwift_Starter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AdventureSwift_Starter; sourceTree = "<group>"; };
+		4E9ABF9528B4035600ACFA7D /* Ch05 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ch05; sourceTree = "<group>"; };
+		4E9ABF9628B4035600ACFA7D /* Ch04 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ch04; sourceTree = "<group>"; };
+		4E9ABF9728B4035600ACFA7D /* Ch02 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ch02; sourceTree = "<group>"; };
+		4E9ABF9828B4035600ACFA7D /* Ch06 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ch06; sourceTree = "<group>"; };
+		4E9ABF9928B4035600ACFA7D /* Ch03 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ch03; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		4E9ABF8C28B4030C00ACFA7D = {
 			isa = PBXGroup;
 			children = (
+				4E9ABF9428B4035600ACFA7D /* AdventureSwift_Starter */,
+				4E9ABF9728B4035600ACFA7D /* Ch02 */,
+				4E9ABF9928B4035600ACFA7D /* Ch03 */,
+				4E9ABF9628B4035600ACFA7D /* Ch04 */,
+				4E9ABF9528B4035600ACFA7D /* Ch05 */,
+				4E9ABF9828B4035600ACFA7D /* Ch06 */,
+				4E9ABF9328B4035600ACFA7D /* Ch07 */,
 			);
 			sourceTree = "<group>";
 		};
