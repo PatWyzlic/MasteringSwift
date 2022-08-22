@@ -11,4 +11,13 @@
  
 [Previous Topic](@previous)                                                 [Next Topic](@next)
  */
+// I'm a single line comment
 
+/*
+ Multi line comment
+ 
+    //I'm a nested comment
+ */
+
+var worldIsHere = "I am the world"
+print(worldIsHere)
