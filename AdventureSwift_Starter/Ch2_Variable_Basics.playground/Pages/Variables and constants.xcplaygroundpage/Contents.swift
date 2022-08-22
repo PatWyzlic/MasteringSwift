@@ -15,4 +15,12 @@ Declaring variables in Swift depends on how you plan to use their values in your
  [Next Topic](@next)
  
 */
+var currentHealth = 90
+//LET IS THE SAME AS CONST!!!
+let maxHealth = 100
+
+currentHealth = 13
+//maxHealth = 10
+
+var inventoryItem = 5, equipmentSlots = 3, currentGold = 42
 
