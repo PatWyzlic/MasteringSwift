@@ -15,18 +15,33 @@
  
  */
 // 1
+var shopItemsArray = ["Shirt", "Pants"]
+var shopItemsDictionary = [shopItemsArray[0]: 30,
+                           shopItemsArray[1]: 20,
+]
 
 // 2
+shopItemsArray.contains("Dog")
 
 // 3
+shopItemsArray.insert("Dog", at: 2)
 
 // 4
+var selectedItem = shopItemsArray[1]
 
 // 5
+var selectedItemPrice = shopItemsDictionary[selectedItem]
 
 // 6
+var fullArmor: Set = ["Diamond Helm", "Diamond Armor"]
+
+var currentArmor: Set = ["Diamond Armor"]
 
 // 7
+var missingPieces = fullArmor.subtracting(currentArmor)
 
 // 8
+var armorPiece = (name: "Diamond Braces", cost: 55, canEquip: true)
+armorPiece.canEquip
+armorPiece.cost
 
